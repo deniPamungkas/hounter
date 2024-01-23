@@ -9,7 +9,7 @@ const SearchInput = () => {
         className="outline-none w-full px-5"
         placeholder="search location you want!"
       />
-      <Button className="bg-teal-500 text-white h-12 px-7 text-lg flex gap-x-2 items-center justify-start">
+      <Button className="bg-primary text-white h-12 px-7 text-lg flex gap-x-2 items-center justify-start">
         search <img src="images/arrowRight.png" alt="arrowRight" />
       </Button>
     </form>

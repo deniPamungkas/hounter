@@ -4,8 +4,20 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "radial-gradient":
-          "radial-gradient(circle, rgba(88,220,238,0.5074404761904762) 0%, rgba(9,121,110,0) 47%)",
+        "radial-gradient-primary":
+          "radial-gradient(circle, rgba(16,185,129,0.35898109243697474) 0%, rgba(9,121,110,0) 47%)",
+        "radial-gradient-yellow":
+          "radial-gradient(circle, rgba(255,250,130,1) 0%, rgba(9,121,110,0) 70%)",
+      },
+      colors: {
+        primary: "#10B981",
+        redd: "#EF4444",
+        bluee: "#1D4ED8",
+      },
+      textColor: {
+        primary: "#10B981",
+        redd: "#EF4444",
+        bluee: "#1D4ED8",
       },
     },
   },

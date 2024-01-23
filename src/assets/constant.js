@@ -4,6 +4,7 @@ export const cards = [
     name: "Roseland House",
     img: "Rectangle1.jpg",
     price: 35000000,
+    status: "Popular",
     owner: {
       avatar: "avatar1.png",
       name: "Dianne Russel",
@@ -15,6 +16,7 @@ export const cards = [
     name: "Woodlandside",
     img: "Rectangle2.jpg",
     price: 22000000,
+    status: "New House",
     owner: {
       avatar: "avatar2.png",
       name: "Robert Fox",
@@ -26,6 +28,7 @@ export const cards = [
     name: "The Old Lighthouse",
     img: "Rectangle3.jpg",
     price: 44000000,
+    status: "Best Deals",
     owner: {
       avatar: "avatar3.png",
       name: "Ronald Richard",
@@ -37,6 +40,7 @@ export const cards = [
     name: "Cosmo's House",
     img: "Rectangle4.jpg",
     price: 22000000,
+    status: "Popular",
     owner: {
       avatar: "avatar4.png",
       name: "Jenny Wilson",
