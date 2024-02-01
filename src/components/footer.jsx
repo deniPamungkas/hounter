@@ -16,7 +16,7 @@ const Footer = () => {
           <img src="images/instagram.png" alt="instagram" />
         </div>
       </div>
-      <div className="w-1/2 h-full flex gap-x-14">
+      <div className="w-1/2 h-full flex gap-x-14 text-sm">
         <ul className="flex flex-col gap-y-1">
           <li className="font-semibold mb-1">Property</li>
           <li>House</li>

@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="w-[1200px] h-[1200px] bg-radial-gradient-primary absolute -top-[500px] -left-[500px] z-0" />
       <div className="w-1/2 flex items-center pl-24">
         <div className="w-4/5 h-fit flex flex-col gap-y-8">
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-5xl font-bold leading-[50px]">
             Find The Place To Live Your Dreams Easily Here
           </h1>
           <p>

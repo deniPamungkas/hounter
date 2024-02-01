@@ -22,6 +22,9 @@ export default {
         bluee: "#1D4ED8",
       },
     },
+    fontFamily: {
+      primary: ["poppins", "sans-serif", "Georgia", "system-ui"],
+    },
   },
   plugins: [],
 };
