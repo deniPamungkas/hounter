@@ -15,7 +15,11 @@ const Hero = () => {
             Everything you need about finding your place to live will be here,
             where it will be easier for you
           </p>
-          <SearchInput />
+          <SearchInput
+            className="border-2"
+            img="images/search.png"
+            btn="Search"
+          />
           <div>
             <p>Our Partnerships</p>
             <div className="flex gap-x-5 ">

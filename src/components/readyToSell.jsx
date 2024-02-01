@@ -4,7 +4,7 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 const ReadyToSell = () => {
   return (
     <section className="w-full h-[409px] px-24 flex z-10">
-      <div className="w-1/2 h-full flex flex-col gap-y-4 pr-10 z-10">
+      <div className="w-1/2 h-full flex flex-col justify-between pr-10 z-10">
         <p className="text-orange-300 font-semibold">--- Ready To Sell</p>
         <h1 className="font-bold text-4xl">Let’s tour and see our house!</h1>
         <p>

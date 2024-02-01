@@ -8,6 +8,8 @@ export default {
           "radial-gradient(circle, rgba(16,185,129,0.35898109243697474) 0%, rgba(9,121,110,0) 47%)",
         "radial-gradient-yellow":
           "radial-gradient(circle, rgba(255,250,130,1) 0%, rgba(9,121,110,0) 70%)",
+        "radial-gradient-blue":
+          "linear-gradient(160deg, rgba(126,132,235,1) 0%, rgba(253,255,255,1) 60%, rgba(126,132,235,1) 100%)",
       },
       colors: {
         primary: "#10B981",

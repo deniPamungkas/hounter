@@ -1,12 +1,16 @@
-const Card2 = () => {
+import PropTypes from "prop-types";
+
+const Card2 = (props) => {
   return (
-    <div className="w-[740px] h-[505px] relative flex flex-col items-center">
+    <div
+      className={`w-[740px] h-[505px] relative flex flex-col items-center m-auto ${props.className}`}
+    >
       <img
         src="images/Rectangle6.jpg"
         alt="rectangle"
         className="w-full h-[400px]"
       />
-      <div className="bg-white w-[612px] h-[249px] absolute m-auto bottom-0 p-6 flex flex-col gap-y-3 rounded-xl drop-shadow-lg">
+      <div className="bg-white w-[612px] h-[249px] absolute m-auto bottom-2 p-6 flex flex-col gap-y-3 rounded-xl drop-shadow-lg">
         <h1 className="text-xl font-semibold">
           Best! I Got The House I Wanted Through Hounter
         </h1>
@@ -33,6 +37,12 @@ const Card2 = () => {
       </div>
     </div>
   );
+};
+
+Card2.propTypes = {
+  children: PropTypes.any,
+  className: PropTypes.any,
+  onClick: PropTypes.any,
 };
 
 export default Card2;
